@@ -1,12 +1,5 @@
-# Simple Interest Calculation
-
-# Taking inputs from the user
-principal = float(input("Enter Principal Amount: "))
-rate = float(input("Enter Rate of Interest (in %): "))
-time = float(input("Enter Time (in years): "))
-
-# Calculating Simple Interest
-simple_interest = (principal * rate * time) / 100
-
-# Displaying the result
-print("Simple Interest =", simple_interest)
+principal = 50000
+time = 3
+rate = 5
+SI = principal*time*rate/100
+print(SI)
